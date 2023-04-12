@@ -11,9 +11,6 @@ function Index(props) {
           return (
             <li>
               The <a href={`/constellations/${i}`}>{constellation.name}</a> is {constellation.meaning}{" "}
-              {/* {constellation.readyToEat
-                ? "It is ready to eat"
-                : "it is not ready to eat"} */}
             </li>
           );
         })}
